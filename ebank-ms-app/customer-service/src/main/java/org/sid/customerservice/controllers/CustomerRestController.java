@@ -1,6 +1,6 @@
 package org.sid.customerservice.controllers;
 
-import org.sid.customerservice.entites.Customer;
+import org.sid.customerservice.entities.Customer;
 import org.sid.customerservice.repository.CustomerRepository;
 import org.sid.customerservice.service.CustomerService;
 import org.springframework.web.bind.annotation.*;

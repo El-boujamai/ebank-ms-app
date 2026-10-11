@@ -1,0 +1,10 @@
+package org.sid.ebankservice.repository;
+
+import org.sid.ebankservice.entities.BankAccount;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.List;
+
+public interface EBankAccountRepository extends JpaRepository<BankAccount , String> {
+    List<BankAccount> findByCustomerId(Long id);
+}

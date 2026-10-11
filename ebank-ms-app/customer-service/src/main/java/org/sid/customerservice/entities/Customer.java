@@ -1,4 +1,4 @@
-package org.sid.customerservice.entites;
+package org.sid.customerservice.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

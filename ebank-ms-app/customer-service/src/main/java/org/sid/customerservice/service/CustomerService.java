@@ -1,6 +1,6 @@
 package org.sid.customerservice.service;
 
-import org.sid.customerservice.entites.Customer;
+import org.sid.customerservice.entities.Customer;
 import org.sid.customerservice.repository.CustomerRepository;
 import org.springframework.ai.mcp.annotation.McpTool;
 import org.springframework.ai.mcp.annotation.McpToolParam;

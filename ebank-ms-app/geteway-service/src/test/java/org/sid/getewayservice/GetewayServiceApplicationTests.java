@@ -1,10 +1,10 @@
-package org.sid.customerservice;
+package org.sid.getewayservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CustomerServiceApplicationTests {
+class GetewayServiceApplicationTests {
 
     @Test
     void contextLoads() {

@@ -1,7 +1,7 @@
 package org.sid.customerservice;
 
-import org.sid.customerservice.entites.Customer;
-import org.sid.customerservice.service.CustomerService;
+import org.example.customerservice.entities.Customer;
+import org.example.customerservice.service.CustomerService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -19,16 +19,16 @@ public class CustomerServiceApplication {
     @Bean
     CommandLineRunner commandLineRunner(CustomerService customerService){
         return args ->{
-            List<String > names = List.of("Ouaria","Maryam","Malak");
+            List<String > names = List.of("Fatima","Maryam","Sana");
             names.forEach(name->{
                 customerService.addCustomer(Customer.builder()
-                        .name(name)
-                        .email(name + "@gmail.com")
+                                .name(name)
+                                .email(name + "@gmail.com")
                         .build());
             });
         };
 
 
-}
+    }
 
 }
